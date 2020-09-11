@@ -1,0 +1,53 @@
+{
+  "name": "w7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.8.4",
+    "babel-loader": "^8.0.5",
+    "eslint-plugin-react": "^7.20.5",
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.0.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "eslint": "^7.3.1",
+    "object-fit-images": "^3.2.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "socket.io-client": "^2.3.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "description": "",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "last 3 iOS versions",
+    "not ie <= 8"
+  ]
+}
